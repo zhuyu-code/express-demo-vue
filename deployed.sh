@@ -1,3 +1,3 @@
- cd /root/server/GraduaDesign_server/
+ cd /root/server/express-demo-vue/
  git pull
  npm i
