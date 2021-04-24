@@ -8,7 +8,7 @@ const profile = require("./router/profile");
 const article = require("./router/article");
 const excel = require("./router/excel");
 require("./config/passport")(passport);
-console.log("nice");
+console.log("nice2");
 
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
