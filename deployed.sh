@@ -1,3 +1,3 @@
- cd /root/server/express-demo-vue/
+ cd /root/serve/express-demo-vue/
  git pull
  npm i
