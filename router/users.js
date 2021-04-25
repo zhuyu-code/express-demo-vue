@@ -18,6 +18,7 @@ router.post("/register", async (req, res, next) => {
       email: req.body.email,
       userName: req.body.userName,
       password: req.body.password,
+      identity: req.body.identity,
     };
     bcrypt.hash(User.password, 10, async function (err, hash) {
       if (err) throw err;

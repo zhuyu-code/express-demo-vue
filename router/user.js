@@ -25,6 +25,7 @@ router.post("/insert", async (req, res, next) => {
       userName: req.body.userName,
       email: req.body.email,
       password: req.body.password,
+      identity: req.body.identity,
     };
     console.log("第一" + User.password);
     bcrypt.hash(User.password, 10, async function (err, hash) {
