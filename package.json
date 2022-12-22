@@ -14,7 +14,7 @@
     "excel-export": "^0.5.1",
     "express": "^4.17.1",
     "github-webhook-handler": "^1.0.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0"
   },
